@@ -4,7 +4,7 @@ For now I'm posting all visualizations made from Tableau right here in Github Pa
 
 ### Top 5 Killers in Game of Thrones
 
-![Top 5 Killers in Game of Thrones](https://drive.google.com/file/d/1bHgMJxEty1_dvG2BXAy5z_F4sZRPICIJ/view?usp=sharing)
+![Top 5 Killers in Game of Thrones](top5killers-got.png)
 
 [Click here to view the dashboard in Tableau](https://tabsoft.co/3s04g4s)
 
