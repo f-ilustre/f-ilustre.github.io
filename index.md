@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Data Visualizations for MakeoverMonday
 
-You can use the [editor on GitHub](https://github.com/f-ilustre/f-ilustre.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+For now I'm posting all visualizations made from Tableau right here in Github Pages.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Top 5 Killers in Game of Thrones
 
-### Markdown
+![Top 5 Killers in Game of Thrones](https://drive.google.com/file/d/1bHgMJxEty1_dvG2BXAy5z_F4sZRPICIJ/view?usp=sharing)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Click here to view the dashboard in Tableau](https://tabsoft.co/3s04g4s)
 
-```markdown
-Syntax highlighted code block
+Have you ever wondered what episodes in GoT are the most violent? This dashboard displays the top 5 killers in the entire series. 
+Start by clicking the circle of the killer on the top left. You'll then find out how many they killed, what season and 
+episode, and how they did it. 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/f-ilustre/f-ilustre.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
