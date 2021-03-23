@@ -2,6 +2,15 @@
 
 For now I'm posting all visualizations made from Tableau right here in Github Pages.
 
+
+### Personal Consumption Expenditures of Cereals and Bakery Products in the U.S.
+
+This is my submission for #MakeoverMonday. The graph to be made over was posted in [Bloomberg](https://www.bloomberg.com/opinion/articles/2021-02-24/beyond-grape-nuts-cereal-makers-had-a-very-weird-year). It shows the personal consumption expenditures of cereals and bakery products since 1959 up to 2020.
+
+I wanted to focus on the years 2017 - 2020 to show how the COVID-19 pandemic affected the expenditures. 
+
+![Cereals and Bakery Products](images/cereals-bakery.png)
+
 ### Top 5 Killers in Game of Thrones
 
 ![Top 5 Killers in Game of Thrones](images/top5killers-got.png)
