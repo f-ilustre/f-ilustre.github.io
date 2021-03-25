@@ -2,6 +2,7 @@
 
 Here is a portfolio of data visualizations I made with Tableau
 
+--------------------------------
 ### Superstore Sales 2011 - 2014
 
 This is a visualization for the assignment in [Essential Design Principles for Tableau](https://www.coursera.org/learn/dataviz-design?). 
@@ -29,7 +30,9 @@ The visualization is static because the VP of sales is not looking to explore th
 
 Comparing the sub-categories is fast and easy because of the use of a bar chart in ascending order. Using words or numbers to do this wll take time and mentally visualizing the comparison might lead to a misinterpretation.
 
+--------------------------------
 ### Personal Consumption Expenditures of Cereals and Bakery Products in the U.S.
+
 
 This is my submission for #MakeoverMonday. The graph to be made over was posted in [Bloomberg](https://www.bloomberg.com/opinion/articles/2021-02-24/beyond-grape-nuts-cereal-makers-had-a-very-weird-year). It shows the personal consumption expenditures of cereals and bakery products since 1959 up to 2020.
 
@@ -37,7 +40,9 @@ I wanted to focus on the years 2017 - 2020 to show how the COVID-19 pandemic aff
 
 ![Cereals and Bakery Products](images/cereals-bakery.png)
 
+--------------------------------
 ### Top 5 Killers in Game of Thrones
+
 
 ![Top 5 Killers in Game of Thrones](images/top5killers-got.png)
 
