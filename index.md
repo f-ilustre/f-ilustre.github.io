@@ -9,21 +9,21 @@ The dataset for these visualizations came from [Our World in Data](https://githu
 The dataset was downloaded on March 26, 2021.
 If anything is amiss with the visualizations, [please let me know](mailto:francisilustre@gmail.com)!
 
-**Philippines: New Tests and New Cases**
+<p style="text-align: center;"> Philippines: New Tests and New Cases </p>
 
 This graph shows that the New Cases for March 2021 is close to the maximum New Cases which happened last August 2020.
 At the same time, it shows that the number of New Tests declined, increasing the gap between the two variables. 
 
 ![PH 1](images/PH1.png)
 
-**Philippines: Tests per Case and New Tests**
+<p style="text-align: center;"> Philippines: Tests per Case and New Tests </p>
 
 This graph primarily shows that the Tests per Case is at its lowest since the beginning of the Pandemic. It takes a lower number
 of tests before a new case happens. On the background is the New Tests as a bar chart to reiterate that the New Tests declined.
 
 ![PH 2](images/PH2.png)
 
-**Philippines: Total Tests and Total Cases**
+<p style="text-align: center;"> Philippines: Total Tests and Total Cases </p>
 
 This scatter plot shows a positive relationship between Total Tests and Total Cases. The R^2 of the trend line is 0.984, indicating a strong relationship
 between the two variables.
