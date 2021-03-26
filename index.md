@@ -1,5 +1,7 @@
 ## Data Visualizations
+
 Here is a portfolio of data visualizations I made with Tableau
+
 --------------------------------
 ### Philippine COVID-19 Visualizations
 
