@@ -3,6 +3,16 @@
 Here is a portfolio of data visualizations I made with Tableau
 
 --------------------------------
+### Superstore Customer Scatter Plot
+
+This is a visualization for the assignment in [Visual Analytics with Tableau](https://www.coursera.org/learn/dataviz-visual-analytics?).
+The goal was to present a scatter plot of sales and profit per customer by region. The assignment also required the color of the circles to reflect the profit ratio and the size of the circle to reflect the discount. The filters for the visualization are Category, Segment, and Year of Order Date.
+
+[Click here to view the dashboard](https://public.tableau.com/views/Superstore3_16167203243820/CustomerScatterplot?:language=en&:display_count=y&:origin=viz_share_link)
+
+![Customer Scatter Plot](images/customer-scatter.png)
+
+--------------------------------
 ### Superstore Sales 2011 - 2014
 
 This is a visualization for the assignment in [Essential Design Principles for Tableau](https://www.coursera.org/learn/dataviz-design?). 
