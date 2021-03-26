@@ -1,6 +1,23 @@
 ## Data Visualizations
-
 Here is a portfolio of data visualizations I made with Tableau
+
+--------------------------------
+### Superstore Shipping Details
+
+This is a visualization for the assignment in [Visual Analytics with Tableau](https://www.coursera.org/learn/dataviz-visual-analytics?).
+The instructions were to create a filled line chart to display the number of shipments per week for Q4 2014 by Shipping Status category.
+The Shipping Status category was made using a calculated field using the following code:
+
+`IF [Days to Ship Scheduled] - [Days to Ship Actual] < 0 THEN 'Shipped Late'
+ELSEIF [Days to Ship Scheduled] - [Days to Ship Actual] > 0 THEN 'Shipped Early'
+ELSEIF [Days to Ship Scheduled] - [Days to Ship Actual] = 0 THEN 'Shipped on Time'
+END`
+
+The chart is colorized by Shipping Status. Order Date, Ship Mode and Ship Status are available as a filter.
+
+[Click here to view the dashboard](https://public.tableau.com/views/ShippingDetails_16167389509060/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+
+![Shipping Details](images/shipping-details.png)
 
 --------------------------------
 ### Superstore Customer Scatter Plot
