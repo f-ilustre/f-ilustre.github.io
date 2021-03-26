@@ -1,5 +1,19 @@
 ## Data Visualizations
 Here is a portfolio of data visualizations I made with Tableau
+--------------------------------
+### Philippine COVID-19 Visualizations
+
+The dataset for these visualizations came from [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/).
+If anything is amiss with the visualizations, [please let me know](mailto:francisilustre@gmail.com)!
+
+1. New Tests and New Cases
+This graph shows that the New Cases for March 2021 is close to the maximum New Cases which happened last August 2020.
+At the same time, it shows that the number of New Tests declined, increasing the gap between the two variables. 
+From here I infer that an increase in New Tests will result in an increase in New Cases.
+
+![PH 1](images/PH1.png)
+
+
 
 --------------------------------
 ### Superstore Shipping Details
