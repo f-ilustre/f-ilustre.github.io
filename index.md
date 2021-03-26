@@ -6,6 +6,7 @@ Here is a portfolio of data visualizations I made with Tableau
 ### Philippine COVID-19 Visualizations
 
 The dataset for these visualizations came from [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/).
+The dataset was downloaded on March 26, 2021.
 If anything is amiss with the visualizations, [please let me know](mailto:francisilustre@gmail.com)!
 
 1. Philippines: New Tests and New Cases
