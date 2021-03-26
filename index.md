@@ -6,14 +6,28 @@ Here is a portfolio of data visualizations I made with Tableau
 The dataset for these visualizations came from [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/).
 If anything is amiss with the visualizations, [please let me know](mailto:francisilustre@gmail.com)!
 
-1. New Tests and New Cases
+1. Philippines: New Tests and New Cases
+
 This graph shows that the New Cases for March 2021 is close to the maximum New Cases which happened last August 2020.
 At the same time, it shows that the number of New Tests declined, increasing the gap between the two variables. 
-From here I infer that an increase in New Tests will result in an increase in New Cases.
 
 ![PH 1](images/PH1.png)
 
+2. Philippines: Tests per Case and New Tests
 
+This graph primarily shows that the Tests per Case is at its lowest since the beginning of the Pandemic. It takes a lower number
+of tests before a new case happens. On the background is the New Tests as a bar chart to reiterate that the New Tests declined.
+
+![PH 2](images/PH2.png)
+
+3. Philippines: Total Tests and Total Cases
+
+This scatter plot shows a positive relationship between Total Tests and Total Cases. The R^2 of the trend line is 0.984, indicating a strong relationship
+between the two variables.
+
+![PH 3](images/PH3.png)
+
+If testing is increased, we would have a clearer data on how many are really infected with COVID-19 in the Philippines. 
 
 --------------------------------
 ### Superstore Shipping Details
