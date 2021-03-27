@@ -33,6 +33,24 @@ between the two variables.
 If testing is increased, we would have a clearer data on how many are really infected with COVID-19 in the Philippines. 
 
 --------------------------------
+### Superstore Sales Spotlight
+
+This is a visualization for the assignment in [Visual Analytics with Tableau](https://www.coursera.org/learn/dataviz-visual-analytics?).
+The task is to create a table showing total sales by product category, broken down by Year and Month.
+
+A new calculation named "Sales Spotlight" is needed to categorize the total sales into "Good" if it's above $10,000 and "Bad" if the 
+total sales is lower than $10,000. The code for the calculated field is:
+
+`IF SUM([Sales]) > 10000 THEN "GOOD" ELSE "BAD" END`
+
+The following were also required: A Region filter, colorizing the table using the Sales Spotlight field, and including Profit in the tooltip.
+
+[Click here to view the dashboard]
+(https://public.tableau.com/views/SalesSpotlight_16168085880120/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+
+![Spotlight](images/spotlight.png)
+
+--------------------------------
 ### Superstore Shipping Details
 
 This is a visualization for the assignment in [Visual Analytics with Tableau](https://www.coursera.org/learn/dataviz-visual-analytics?).
@@ -46,10 +64,9 @@ END`
 
 The chart is colorized by Shipping Status. Order Date, Ship Mode and Ship Status are available as a filter.
 
-[Click here to view the dashboard](https://public.tableau.com/views/ShippingDetails_16167389509060/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
-
 ![Shipping Details](images/shipping-details.png)
 
+[Click here to view the dashboard](https://public.tableau.com/views/SalesSpotlight_16168085880120/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 --------------------------------
 ### Superstore Customer Scatter Plot
 
