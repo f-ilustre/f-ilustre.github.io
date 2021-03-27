@@ -45,10 +45,10 @@ total sales is lower than $10,000. The code for the calculated field is:
 
 The following were also required: A Region filter, colorizing the table using the Sales Spotlight field, and including Profit in the tooltip.
 
-[Click here to view the dashboard]
-(https://public.tableau.com/views/SalesSpotlight_16168085880120/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+[Click here to view the dashboard](https://public.tableau.com/views/SalesSpotlight_16168085880120/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
 ![Spotlight](images/spotlight.png)
+
 
 --------------------------------
 ### Superstore Shipping Details
