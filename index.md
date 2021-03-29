@@ -33,6 +33,19 @@ between the two variables.
 If testing is increased, we would have a clearer data on how many are really infected with COVID-19 in the Philippines. 
 
 --------------------------------
+### Superstore Dual Layer Maps
+
+This is a visualization for the assignment in [Visual Analytics with Tableau](https://www.coursera.org/learn/dataviz-visual-analytics?).
+The task is to create dual layer maps. It should show total profit by postal code, colorized by profit ratio, sized by total sales and show the
+regions of the United States. The region, profit ratio and order dates should be available as filters.
+
+[Click here to view the dashboard](https://public.tableau.com/views/DualLayerMaps_16169808504710/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+
+![Dual Layer Maps](images/dual-layer.png)
+
+
+
+--------------------------------
 ### Superstore Sales Spotlight
 
 This is a visualization for the assignment in [Visual Analytics with Tableau](https://www.coursera.org/learn/dataviz-visual-analytics?).
