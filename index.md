@@ -33,6 +33,15 @@ between the two variables.
 If testing is increased, we would have a clearer data on how many are really infected with COVID-19 in the Philippines. 
 
 --------------------------------
+### UK Imports & Exports
+
+This is my submission for #Makeovermonday. The graph to be made over was posted in [The Guardian](https://www.theguardian.com/business/2021/mar/12/exports-to-eu-plunge-in-first-month-since-brexit-uk-economy). The dataset came from [ONS - UK trade goods and services publication table 14](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradegoodsandservicespublicationtables)
+
+[Click here to view the dashboard](https://t.co/jTgvgTBwQS?amp=1)
+
+![UK Imports & Exports](images/uk-imports-exports.png)
+
+--------------------------------
 ### Superstore Dual Layer Maps
 
 This is a visualization for the assignment in [Visual Analytics with Tableau](https://www.coursera.org/learn/dataviz-visual-analytics?).
