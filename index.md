@@ -12,7 +12,7 @@ If anything is amiss with the visualizations, [please let me know](mailto:franci
 <p style="text-align: center;"> Philippines: New Tests and New Cases </p>
 
 This graph shows that the New Cases for March 2021 is close to the maximum New Cases which happened last August 2020.
-At the same time, it shows that the number of New Tests declined, increasing the gap between the two variables. Unfortunately, the value of the New Cases is way above the New Tests.
+At the same time, it shows that the number of New Tests declined.
 
 ![PH 1](images/PH1.png)
 
