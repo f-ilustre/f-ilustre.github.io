@@ -2,6 +2,17 @@
 
 Here is a portfolio of data visualizations I made with Tableau
 
+
+--------------------------------
+### The Philippines' Fight Against COVID-19
+
+
+The dataset for these visualizations came from [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/).
+The dataset was downloaded on April 2 2021 @ 6:11 PM GMT+8
+If anything is amiss with the visualizations, [please let me know](mailto:francisilustre@gmail.com)!
+
+![PHP Fight](images/PH-fight-COVID.png)
+
 --------------------------------
 ### Philippine COVID-19 Visualizations
 
