@@ -11,6 +11,7 @@ The dataset for these visualizations came from [Our World in Data](https://githu
 The dataset was downloaded on April 2 2021 @ 6:11 PM GMT+8
 If anything is amiss with the visualizations, [please let me know](mailto:francisilustre@gmail.com)!
 
+[Click here to view the full image](https://bit.ly/3wn1WHd)
 ![PHP Fight](images/PH-fight-COVID1.png)
 
 --------------------------------
