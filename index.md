@@ -11,7 +11,7 @@ The dataset for these visualizations came from [Our World in Data](https://githu
 The dataset was downloaded on April 2 2021 @ 6:11 PM GMT+8
 If anything is amiss with the visualizations, [please let me know](mailto:francisilustre@gmail.com)!
 
-![PHP Fight](images/PH-fight-COVID.png)
+![PHP Fight](images/PH-fight-COVID1.png)
 
 --------------------------------
 ### Philippine COVID-19 Visualizations
