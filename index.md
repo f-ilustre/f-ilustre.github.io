@@ -15,6 +15,26 @@ If anything is amiss with the visualizations, [please let me know](mailto:franci
 ![PHP Fight](images/PH-fight-COVID1.png)
 
 --------------------------------
+### Superstore Discounts
+
+This is an assignment for [Creating Dashboards and Storytelling with Tableau](https://www.coursera.org/learn/dataviz-dashboards)
+
+The interactive dashboard is meant to help answer the following business questions:
+
+1. How much is the company losing based on discounted sales?
+2. Are there customers who are receiving more discount than others?
+3. Are there certain product categories receiving more discount than others?
+4. Are there any inefficiencies that exist in the business operation?
+
+[Click here to view the dashboard](https://public.tableau.com/profile/francis.ilustre#!/vizhome/FullSalesSuperstoreDataset_16176975664770/Dashboard1)
+
+![Superstore-Discount](images/superstore-discount.png)
+
+The bigger the discount and the more frequent a discount is given to a customer, the bigger the company loses. There are customers who have received more discounts than others. Binders, machines, tables and bookcases are being discounted higher than other sub-categories. 
+
+The policy on discounts should be reviewed for it not to result in big and unnecessary losses for the company. 
+
+--------------------------------
 ### Philippine COVID-19 Visualizations
 
 The dataset for these visualizations came from [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/).
