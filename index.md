@@ -15,6 +15,18 @@ If anything is amiss with the visualizations, [please let me know](mailto:franci
 ![PHP Fight](images/PH-fight-COVID1.png)
 
 --------------------------------
+### Multiclass Classification of Dry Beans
+
+This is my submission for #Makeovermonday 2021 Week 14. The dataset is from a research paper titled ["Multiclass classification of dry beans using computer vision and machine learning techniques"](https://www.sciencedirect.com/science/article/abs/pii/S0168169919311573?via%3Dihub). 
+
+This is the first time I visualized a dataset from a research paper. I had totally no idea what to do so I got inspiration from 
+[Andy Kriebel's](https://twitter.com/VizWizBI) Watch me Viz and [Michelle Frayman's](https://twitter.com/maf2k) visualization. 
+
+[Click here to view the dashboard](https://t.co/PRHVxHwkwf?amp=1)
+
+![Dry Beans](images/dry-beans.png)
+
+--------------------------------
 ### Superstore Discounts
 
 This is an assignment for [Creating Dashboards and Storytelling with Tableau](https://www.coursera.org/learn/dataviz-dashboards)
