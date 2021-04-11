@@ -46,6 +46,10 @@ The bigger the discount and the more frequent a discount is given to a customer,
 
 The policy on discounts should be reviewed for it not to result in big and unnecessary losses for the company. 
 
+In addition to the interactive dashboard, we were also asked to create a single-frame visualization:
+
+![Single-frame](images/superstore-discount-profits.png)
+
 --------------------------------
 ### Philippine COVID-19 Visualizations
 
