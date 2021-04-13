@@ -2,6 +2,16 @@
 
 Here is a portfolio of data visualizations I made with Tableau
 
+--------------------------------
+### How Far are ASEAN countries from Herd Immunity?
+
+Here's my viz focusing on ASEAN countries' progress towards herd immunity.
+The data from Our World in Data was downloaded on April 13, 1:19 PM GMT + 8.
+The dimensions of the visualization are fixed for viewing on mobile phones.
+I'll update this again on May as more data comes in. 
+Thanks to my friends for the design quality check! 
+
+![ASEAN Herd Immunity](images/asean-herd-immunity-kpi.png)
 
 --------------------------------
 ### The Philippines' Fight Against COVID-19
