@@ -5,7 +5,7 @@ Here is a portfolio of data visualizations I made with Tableau
 --------------------------------
 ### Final Project for Data Visualization with Tableau by UC Davis
 
-For the final project for [Data Visualization with Tableau Specialization](https://www.coursera.org/specializations/data-visualization), I also chose COVID-19 as a topic because it is socially relevant right now. The were asked to write a project proposal which includes the executive summary, the design checklist and audience persona. [You can read the document here](images/philippines-COVID-19- performance.pdf)
+For the final project for [Data Visualization with Tableau Specialization](https://www.coursera.org/specializations/data-visualization), I also chose COVID-19 as a topic because it is socially relevant right now. The were asked to write a project proposal which includes the executive summary, the design checklist and audience persona. [You can read the document here](images/philippines-COVID-19-performance.pdf)
 
 Although this was meant to be a single-frame visualization, you can also [view the dashboard](https://tabsoft.co/3uVvmuG) to check datapoints.
 
