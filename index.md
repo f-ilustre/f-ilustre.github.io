@@ -19,11 +19,10 @@ Here are my notes on this project just in case I would need to handle a similar 
 
 ![Global Airport Database Join](images/global-airport-database-join.png)
  
- 2. During data exploration, I noticed the entry for LAX-MNL on April 2019 was missing. It was spotted on the Philippine Airline's line graph when the LAX-MNL route was used as a filter on the dashboard. The route is the most famous for travelling from the US to the Philippines and so a zero value on April 2019 became questionable. There was also no news regarding any closure on this route on that date. To replace the missing value, I averaged all other months from Jan to Oct of 2019 and used that as a value. I also decided to use Philippine Airlines Inc. as the carrier for this value as majority of flights from LAX-MNL are flown by this carrier. 
+ 2. During data exploration, I noticed the entry for LAX-MNL on April 2019 was missing. It was spotted on the Philippine Airline's line graph when the LAX-MNL route was used as a filter on the dashboard. The route is the most famous for travelling from the US to the Philippines and so a zero value on April 2019 became questionable. There was also no news regarding any closure on this route on that date. To replace the missing value, I averaged all other months from Jan to Oct of 2019 and used that as a value. I also decided to use Philippine Airlines Inc. as the carrier for this value as majority of flights from LAX-MNL are flown by this carrier. To append this value on the dataset, I needed to use Python because Microsoft Excel could only open up to 1+ million+. Here's the code I used using Terminal:
 
-To append this value on the dataset, I needed to use Python because Microsoft Excel could only open up to 1 million+ rows. Here's the code I used using Terminal:
-
-`#Python Code for appending LAX-MNL for April, 2019 using Terminal:
+```
+#Python Code for appending LAX-MNL for April, 2019 using Terminal:
 
 import os
 import pandas as pd
@@ -35,16 +34,73 @@ file = path + '/Downloads/US Monthly Air Passengers.csv'
 df = pd.read_csv(file)
 df.columns  					#to check what columns are needed to be filled
 
-laxmnl = [18438, 19564, ‘Philippine Airlines Inc.’, ‘LAX’, ‘Los Angeles, CA’, ‘CA’, ‘California’, ‘US’, ‘United States’, ‘MNL’, ‘Manila, Philippines’, ‘’, ‘’, ‘PH’, ‘Philippines’, 2019, 4]
+laxmnl = [18438, 19564, "Philippine Airlines Inc.", "LAX", "Los Angeles, CA", "CA", "California", "US", "United States", "MNL", "Manila, Philippines", "", "", "PH", "Philippines", 2019, 4]
 
 with open(file, ‘a+’, newline=‘’) as write_obj:
   csv_writer = writer(write_obj)
   csv_writer = writerow(laxmnl)
   
 df = pd.read_csv(file)  #reload the file to check if the append was successful 
-df.tail()  
-`
+df.tail()
+```
 
+3. Helpful tips from Andy:
+
+```
+// DATE
+MAKEDATE([Year],[Month],1)
+
+// Route
+[Origin]+'-'+[Dest]
+
+// 2019 Passengers | [Year]=2019 returns True or False; INT turns the True into a 1
+INT([Year]=2019)*[Sum PASSENGERS]
+
+// 2020 Passengers | [Year]=2020 returns True or False; INT turns the True into a 1
+INT([Year]=2020)*[Sum PASSENGERS]
+
+// 2020 Passengers by Carrier
+{ FIXED [Carrier Name] : SUM(if [Year]=2020 THEN [Sum PASSENGERS] END)}
+
+// 2020 Passengers by Route
+{ FIXED [Route] : SUM(if [Year]=2020 THEN [Sum PASSENGERS] END)}
+
+// 2020 vs 2019
+SUM([2020 Passengers]) - SUM([2019 Passengers])
+
+// 2020 vs 2019 %
+[2020 vs 2019] / SUM([2019 Passengers])
+
+// 2020 vs 2019 % Total
+([Total 2020 Passengers] - [Total 2019 Passengers]) / [Total 2019 Passengers]
+
+// Destination Point
+MAKEPOINT([Dest Latitude],[Dest Longitude])
+
+// Flight Path
+MAKELINE([Origin Point],[Destination Point])
+
+// Origin Point
+MAKELINE([Origin Point],[Destination Point])
+
+// Passengers for Selected Month | Gives the number of passengers for the amount you choose
+{FIXED [Year]: SUM(INT([Month]=[Month Parameter])*[Sum PASSENGERS])}
+
+// Passengers vs Selected Month
+SUM([Sum PASSENGERS]) - SUM([Passengers for Selected Month])
+
+// Total 2019 Passengers
+{sum([2019 Passengers])}
+
+// Total 2020 Passengers
+{sum([2020 Passengers])}
+
+```
+
+4. The Destination and Origin columns can be set to Geographical Role -> Airport
+5. You can put the '+' and '-' symbols for percentage changes on the 2020 vs 2019 % calculation:
+
+![2020 vs 2019 %](images/default-number-format-percentage.png)
 
 --------------------------------
 ### Final Project for Data Visualization with Tableau by UC Davis
