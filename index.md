@@ -5,7 +5,7 @@ Here is a portfolio of data visualizations I made with Tableau
 --------------------------------
 ### US TO PH Air Travel (2020 vs 2019)
 
-This is my submission for Week 16 #Makeovermonday. The dataset comes from the [Bureau of Transportation Statistics](https://data.world/makeovermonday/2021w16). I'm glad for Andy Kriebel's [Watch me Viz](https://www.youtube.com/watch?v=GUVJ7zqOgeo) because the dataset containts 6.27 million rows. 
+This is my submission for Week 16 #Makeovermonday. The dataset comes from the [Bureau of Transportation Statistics](https://data.world/makeovermonday/2021w16) and contains 6.27 million rows. 
 
 I focused on US TO PH air travels (because I'm from the Philippines) and this is socially relevant to my network. 
 
