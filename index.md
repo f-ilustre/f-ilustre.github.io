@@ -102,6 +102,8 @@ SUM([Sum PASSENGERS]) - SUM([Passengers for Selected Month])
 
 ![2020 vs 2019](images/default-number-format-percentage.png)
 
+* After mapping out the route, the map displays air travels from the US to Malabang Airport, an airport located in Lanao del Sur. This is very unlikely. Travelers from the US just don't go there. I checked the Global Airport Database and the Malabang Airports IATA code is set to MNL. I had to change this to MLP. 
+
 --------------------------------
 ### Final Project for Data Visualization with Tableau by UC Davis
 
