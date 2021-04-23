@@ -15,11 +15,11 @@ I focused on US TO PH air travels (because I'm from the Philippines) and this is
 
 Here are my notes on this project just in case I would need to handle a similar dataset.
 
-1. The [Global Airport Database](https://www.partow.net/miscellaneous/airportdatabase/index.html#Downloads) was needed for the Longitude and Latitude of the origin and the destination in order to display the locations on the map. The 'US Monthly Air Passengers.csv' must be inner joined with the Global Airport Database both for the origin and destination. 
+* The [Global Airport Database](https://www.partow.net/miscellaneous/airportdatabase/index.html#Downloads) was needed for the Longitude and Latitude of the origin and the destination in order to display the locations on the map. The 'US Monthly Air Passengers.csv' must be inner joined with the Global Airport Database both for the origin and destination. 
 
 ![Global Airport Database Join](images/global-airport-database-join.png)
  
- 2. During data exploration, I noticed the entry for LAX-MNL on April 2019 was missing. It was spotted on the Philippine Airline's line graph when the LAX-MNL route was used as a filter on the dashboard. The route is the most famous for travelling from the US to the Philippines and so a zero value on April 2019 became questionable. There was also no news regarding any closure on this route on that date. To replace the missing value, I averaged all other months from Jan to Oct of 2019 and used that as a value. I also decided to use Philippine Airlines Inc. as the carrier for this value as majority of flights from LAX-MNL are flown by this carrier. To append this value on the dataset, I needed to use Python because Microsoft Excel could only open up to 1+ million+. Here's the code I used using Terminal:
+* During data exploration, I noticed the entry for LAX-MNL on April 2019 was missing. It was spotted on the Philippine Airline's line graph when the LAX-MNL route was used as a filter on the dashboard. The route is the most famous for travelling from the US to the Philippines and so a zero value on April 2019 became questionable. There was also no news regarding any closure on this route on that date. To replace the missing value, I averaged all other months from Jan to Oct of 2019 and used that as a value. I also decided to use Philippine Airlines Inc. as the carrier for this value as majority of flights from LAX-MNL are flown by this carrier. To append this value on the dataset, I needed to use Python because Microsoft Excel could only open up to 1+ million+. Here's the code I used using Terminal:
 
 ```
 #Python Code for appending LAX-MNL for April, 2019 using Terminal:
@@ -44,7 +44,7 @@ df = pd.read_csv(file)  #reload the file to check if the append was successful
 df.tail()
 ```
 
-3. Helpful tips from Andy:
+* Helpful calculations:
 
 ```
 // DATE
@@ -97,10 +97,10 @@ SUM([Sum PASSENGERS]) - SUM([Passengers for Selected Month])
 
 ```
 
-4. The Destination and Origin columns can be set to Geographical Role -> Airport
-5. You can put the '+' and '-' symbols for percentage changes on the 2020 vs 2019 % calculation:
+* The Destination and Origin columns can be set to Geographical Role -> Airport
+* You can put the '+' and '-' symbols for percentage changes on the 2020 vs 2019 % calculation:
 
-![2020 vs 2019 %](images/default-number-format-percentage.png)
+![2020 vs 2019](images/default-number-format-percentage.png)
 
 --------------------------------
 ### Final Project for Data Visualization with Tableau by UC Davis
