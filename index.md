@@ -3,6 +3,50 @@
 Here is a portfolio of data visualizations I made with Tableau
 
 --------------------------------
+### US TO PH Air Travel (2020 vs 2019)
+
+This is my submission for Week 16 #Makeovermonday. The dataset comes from the [Bureau of Transportation Statistics](https://data.world/makeovermonday/2021w16). I'm glad for Andy Kriebel's [Watch me Viz](https://www.youtube.com/watch?v=GUVJ7zqOgeo) because the dataset containts 6.27 million rows. 
+
+I focused on US TO PH air travels (because I'm from the Philippines) and this is socially relevant to my network. 
+
+[Click here for the Interactive Version](https://tabsoft.co/3dItcZj)
+
+![US TO PH Air Travel](images/us-ph-air-passengers.png)
+
+Here are my notes on this project just in case I would need to handle a similar dataset.
+
+1. The [Global Airport Database](https://www.partow.net/miscellaneous/airportdatabase/index.html#Downloads) was needed for the Longitude and Latitude of the origin and the destination in order to display the locations on the map. The 'US Monthly Air Passengers.csv' must be inner joined with the Global Airport Database both for the origin and destination. 
+
+![Global Airport Database Join](images/global-airport-database-join.png)
+ 
+ 2. During data exploration, I noticed the entry for LAX-MNL on April 2019 was missing. It was spotted on the Philippine Airline's line graph when the LAX-MNL route was used as a filter on the dashboard. The route is the most famous for travelling from the US to the Philippines and so a zero value on April 2019 became questionable. There was also no news regarding any closure on this route on that date. To replace the missing value, I averaged all other months from Jan to Oct of 2019 and used that as a value. I also decided to use Philippine Airlines Inc. as the carrier for this value as majority of flights from LAX-MNL are flown by this carrier. 
+
+To append this value on the dataset, I needed to use Python because Microsoft Excel could only open up to 1 million+ rows. Here's the code I used using Terminal:
+
+`#Python Code for appending LAX-MNL for April, 2019 using Terminal:
+
+import os
+import pandas as pd
+from csv import writer
+
+path = os.getcwd()
+file = path + '/Downloads/US Monthly Air Passengers.csv'
+
+df = pd.read_csv(file)
+df.columns  					#to check what columns are needed to be filled
+
+laxmnl = [18438, 19564, ‘Philippine Airlines Inc.’, ‘LAX’, ‘Los Angeles, CA’, ‘CA’, ‘California’, ‘US’, ‘United States’, ‘MNL’, ‘Manila, Philippines’, ‘’, ‘’, ‘PH’, ‘Philippines’, 2019, 4]
+
+with open(file, ‘a+’, newline=‘’) as write_obj:
+  csv_writer = writer(write_obj)
+  csv_writer = writerow(laxmnl)
+  
+df = pd.read_csv(file)  #reload the file to check if the append was successful 
+df.tail()  
+`
+
+
+--------------------------------
 ### Final Project for Data Visualization with Tableau by UC Davis
 
 For the final project for [Data Visualization with Tableau Specialization](https://www.coursera.org/specializations/data-visualization), I also chose COVID-19 as a topic because it is socially relevant right now. The were asked to write a project proposal which includes the executive summary, the design checklist and audience persona. [You can read the document here](images/philippines-COVID-19-performance.pdf)
