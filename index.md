@@ -81,7 +81,7 @@ MAKEPOINT([Dest Latitude],[Dest Longitude])
 MAKELINE([Origin Point],[Destination Point])
 
 // Origin Point
-MAKELINE([Origin Point],[Destination Point])
+MAKEPOINT([Origin Latitude],[Origin Longitude])
 
 // Passengers for Selected Month | Gives the number of passengers for the amount you choose
 {FIXED [Year]: SUM(INT([Month]=[Month Parameter])*[Sum PASSENGERS])}
