@@ -17,9 +17,10 @@ Notes:
 
 The spatial file to render a hex map of the U.S. is from [Joshua Milligan](https://vizpainter.com/hex-map-spatial-file/)
 It's loaded unto Tableau in a relationship with the U.S. Price Parity dataset using the state variables.
-![hex-relationship](images/hex-relationship.png)
+<img src="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/hex-relationship.png" width="500" height="250">
 
 A parameter named "Selected Year" was created using a list > add values from > year then disabled the 'include thousands separator' from the display format.
+<img src="https://github.com/f-ilustre/f-ilustre.github.io/raw/main/images/selected-year.png" width="500" height="600">
 
 For this visualization, the only calculation used is:
 
