@@ -3,6 +3,47 @@
 Here is a portfolio of data visualizations I made with Tableau
 
 --------------------------------
+### US Price Parity
+
+Here's my submission for Week 17 #Makeovermonday. 
+
+[Click here for the Interactive Version](https://tabsoft.co/3eapJ6i)
+
+Hawaii really is an expensive place to live in. Also, does anybody know why goods in Nevada are really cheap?
+
+![US Price Parity](images/us-price-parity.png)
+
+Notes:
+
+The spatial file to render a hex map of the U.S. is from [Joshua Milligan](https://vizpainter.com/hex-map-spatial-file/)
+It's loaded unto Tableau in a relationship with the U.S. Price Parity dataset using the state variables.
+![hex-relationship](images/hex-relationship.png)
+
+A parameter named "Selected Year" was created using a list > add values from > year then disabled the 'include thousands separator' from the display format.
+
+For this visualization, the only calculation used is:
+
+```
+// Variance to Baseline
+{ FIXED [State] : AVG( IF [Year]=[Selected Year] THEN [Index] END) - 100 }
+```
+The filter Description should be added to context or else the filter will not work.
+
+Other helpful calculations to compare the parity change from different years:
+
+```
+// Parity Selected Year
+{ FIXED [State] : AVG( IF [Year]=[Selected Year] THEN [Index] END) }
+
+// Parity Comparison Year | Needs Comparison Year Parameter
+{ FIXED [State] : AVG( IF [Year]=[Comparison Year] THEN [Index] END) }
+
+// Difference Between Years Selected
+[Parity Selected Year] - [Parity Comparison Year]
+```
+
+
+--------------------------------
 ### US TO PH Air Travel (2020 vs 2019)
 
 This is my submission for Week 16 #Makeovermonday. The dataset comes from the [Bureau of Transportation Statistics](https://data.world/makeovermonday/2021w16) and contains 6.27 million rows. 
