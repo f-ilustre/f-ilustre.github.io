@@ -17,10 +17,10 @@ Notes:
 
 The spatial file to render a hex map of the U.S. is from [Joshua Milligan](https://vizpainter.com/hex-map-spatial-file/)
 It's loaded unto Tableau in a relationship with the U.S. Price Parity dataset using the state variables. <br>
-<img src="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/hex-relationship.png" width="500" height="250">
+<img src="https://raw.githubusercontent.com/f-ilustre/f-ilustre.github.io/main/images/hex-relationship.png" width="500" height="250">
 
 A parameter named "Selected Year" was created using a list > add values from > year then disabled the 'include thousands separator' from the display format.<br>
-<img src="https://github.com/f-ilustre/f-ilustre.github.io/raw/main/images/selected-year.png" width="500" height="600">
+<img src="https://raw.githubusercontent.com/f-ilustre/f-ilustre.github.io/main/images/selected-year.png" width="500" height="600">
 
 For this visualization, the only calculation used is:
 
@@ -59,7 +59,7 @@ Here are my notes on this project just in case I would need to handle a similar 
 
 * The [Global Airport Database](https://www.partow.net/miscellaneous/airportdatabase/index.html#Downloads) was needed for the Longitude and Latitude of the origin and the destination in order to display the locations on the map. The 'US Monthly Air Passengers.csv' must be inner joined with the Global Airport Database both for the origin and destination. 
 <br>
-<img src="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/global-airport-database-join.png" width="600" height="300">
+<img src="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/global-airport-database-join.png?raw=true" width="600" height="300">
  
 * During data exploration, I noticed the entry for LAX-MNL on April 2019 was missing. It was spotted on the Philippine Airline's line graph when the LAX-MNL route was used as a filter on the dashboard. The route is the most famous for travelling from the US to the Philippines and so a zero value on April 2019 became questionable. There was also no news regarding any closure on this route on that date. To replace the missing value, I averaged all other months from Jan to Oct of 2019 and used that as a value. I also decided to use Philippine Airlines Inc. as the carrier for this value as majority of flights from LAX-MNL are flown by this carrier. To append this value on the dataset, I needed to use Python because Microsoft Excel could only open up to 1+ million rows. Here's the code I used using Terminal:
 
@@ -142,7 +142,7 @@ SUM([Sum PASSENGERS]) - SUM([Passengers for Selected Month])
 * The Destination and Origin columns can be set to Geographical Role -> Airport
 * You can put the '+' and '-' symbols for percentage changes on the 2020 vs 2019 % calculation:
 <br>
-<img src="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/default-number-format-percentage.png" width="300" height="300">
+<img src="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/default-number-format-percentage.png?raw=true" width="300" height="300">
 
 * After mapping out the route, the map displays air travels from the US to Malabang Airport, an airport located in Lanao del Sur. This is very unlikely. Travelers from the US just don't go there. I checked the Global Airport Database and the Malabang Airports IATA code is set to MNL. I had to change this to MLP. 
 
