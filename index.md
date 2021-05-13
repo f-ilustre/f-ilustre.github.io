@@ -3,11 +3,21 @@
 Here is a portfolio of data visualizations I made with Tableau
 
 --------------------------------
+### CEO-to-Worker Compensation
+
+Here's my submission for Week 17 #Makeovermonday
+No calculations needed here as the dataset already contains the CEO-to-Worer compensation ratios. 
+
+[Click here for the interactive version](https://tabsoft.co/3w1zGZD)
+
+![CEO-to-Worker](images/ceo-worker-compensation.png)
+
+--------------------------------
 ### US Price Parity
 
 Here's my submission for Week 17 #Makeovermonday. 
 
-[Click here for the Interactive Version](https://tabsoft.co/3eapJ6i)
+[Click here for the interactive version](https://tabsoft.co/3eapJ6i)
 
 Hawaii really is an expensive place to live in. Also, does anybody know why goods in Nevada are really cheap?
 
