@@ -5,7 +5,8 @@ Here is a portfolio of data visualizations I made with Tableau
 --------------------------------
 ### CEO-to-Worker Compensation
 
-Here's my submission for Week 17 #Makeovermonday
+Here's my submission for Week 18 #Makeovermonday.
+
 No calculations needed here as the dataset already contains the CEO-to-Worer compensation ratios. 
 
 [Click here for the interactive version](https://tabsoft.co/3w1zGZD)
