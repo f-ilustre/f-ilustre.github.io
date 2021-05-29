@@ -276,29 +276,6 @@ In addition to the interactive dashboard, we were also asked to create a single-
 ![Single-frame](images/superstore-discount-profits.png)
 
 --------------------------------
-### Philippine COVID-19 Visualizations
-
-The dataset for these visualizations came from [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/).
-The dataset was downloaded on March 26, 2021.
-If anything is amiss with the visualizations, [please let me know](mailto:francisilustre@gmail.com)!
-
-<p style="text-align: center;"> Philippines: New Tests and New Cases </p>
-
-This graph shows that the New Cases for March 2021 is close to the maximum New Cases which happened last August 2020.
-At the same time, it shows that the number of New Tests declined.
-
-![PH 1](images/PH1.png)
-
-<p style="text-align: center;"> Philippines: Total Tests and Total Cases </p>
-
-This scatter plot shows a positive relationship between Total Tests and Total Cases. The R^2 of the trend line is 0.984, indicating a strong relationship
-between the two variables.
-
-![PH 3](images/PH3.png)
-
-If testing is increased, we would have a clearer data on how many are really infected with COVID-19 in the Philippines. 
-
---------------------------------
 ### UK Imports & Exports
 
 This is my submission for #Makeovermonday. The graph to be made over was posted in [The Guardian](https://www.theguardian.com/business/2021/mar/12/exports-to-eu-plunge-in-first-month-since-brexit-uk-economy). The dataset came from [ONS - UK trade goods and services publication table 14](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradegoodsandservicespublicationtables)
