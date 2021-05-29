@@ -2,6 +2,41 @@
 
 Here is a portfolio of data visualizations I made with Tableau
 
+
+--------------------------------
+### Americans vs Animals
+
+Here's my submission for Week 20 #Makeovermonday.
+
+[Click here for the interactive version](https://tabsoft.co/3fcMVBp)
+
+<img src ="https://raw.githubusercontent.com/f-ilustre/f-ilustre.github.io/main/images/americans-vs-animals.png" width="300" height = "400">
+
+[Andy Kriebel has an easy to follow tutorial on Waffle Charts using Data Densification ](https://www.youtube.com/watch?v=pEmdKDPdnt8). 
+
+Aside from the dataset from YOUGOV, another excel file was created for the densification data. It has a hundred rows and each value has a designated row and column number.
+
+<img src ="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/densification-table.png?raw=true" width="300" height="600">
+
+The densification data is then joined with the dataset from YOUGOV using a dummy calculated field.
+
+<img src="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/waffle-chart-densification.png?raw=true" width="600" height="700">
+
+Calculated Fields used:
+
+```
+//Below Value (M)
+AVG([Male])<=AVG([Value])-0.001
+
+//Below Value (F)
+AVG([Female])<=AVG([Value])-0.001
+```
+
+It's important to select the datapoints in the waffle chart, view the data and check if the Below Value computation is correct. In my case, I needed to subtract -0.001 from the AVG([Value]) so the "True" and "False" correctly falls in place.
+
+<img src="https://github.com/f-ilustre/f-ilustre.github.io/blob/main/images/waffle-chart-check.png?raw=true" width="900" height="400">
+
+
 --------------------------------
 ### How Much is 1GB of Mobile Data Around The World?
 
